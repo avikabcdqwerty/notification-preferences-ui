@@ -1,0 +1,155 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI / OpenAPI docs cache
+.openapi.json
+
+# SQLAlchemy
+*.db
+*.sqlite3
+
+# PostgreSQL
+*.psql
+*.pgsql
+*.log
+
+# Local database files
+*.db
+*.sqlite
+
+# Docker
+**/Dockerfile.*
+**/docker-compose*.yml
+docker-compose*.yml
+.dockerignore
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# React / Node
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.cache/
+frontend/yarn-error.log
+frontend/yarn-debug.log*
+frontend/npm-debug.log*
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Testing
+frontend/coverage/
+frontend/junit.xml
+frontend/test-results/
+frontend/src/**/*.test.*
+frontend/src/**/__tests__/
+
+# i18next
+frontend/src/i18n/locales/**/*.missing.json
+
+# Logs
+*.log
+logs/
+backend/*.log
+frontend/*.log
+
+# GitHub Actions
+.github/workflows/*.log
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Ignore secret files
+secrets.*
+*.secret
+*.key
+*.pem
+
+# Ignore generated OpenAPI docs
+backend/openapi.json
+backend/docs/
+backend/static/swagger/
+backend/static/redoc/
+
+# Ignore database initialization artifacts
+backend/db_init.sql.bak
+backend/db_init.sql.tmp
